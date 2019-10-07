@@ -1,0 +1,33 @@
+
+
+.editor-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top:60px;  
+
+}
+
+.editer-choice-box{
+    width: 350px;
+    color: black;
+    margin-left: 40px;
+}
+.editer-box{
+    width: 200px;
+color: blue;
+text-decoration: underline;
+margin-right: 40px;
+}
+
+@media screen and (max-width:500px){
+    .editer-box{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+}}
+@media screen and (max-width:500px){
+    .editor-container{
+        display: flex;
+        align-items: center;
+    }
+}

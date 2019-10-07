@@ -1,0 +1,50 @@
+.flipa-container{
+    width: 100%;
+    height: 400px;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.box1{
+    border: 1px solid lightgray;
+
+    color: black;
+    width: 300px;
+    height: 380px;
+    padding-top: 40px;
+
+}
+.star-icon{
+    background-color: green;
+    font-size: 35px;
+    color: white;
+    margin-top:20px; 
+    margin-left: 4px;
+}
+.trustpilot{
+    display: flex;
+ justify-content: center;
+ margin-top:20px; 
+ align-content: center;
+
+}
+.date{
+    margin-top: 20px;
+}
+.pilot-icon{
+    color: green;
+    font-size: 35px;
+}
+h4{
+    margin-top: 15px;
+}
+.pera{
+    margin: 0px 70px 0px 30px;
+}
+@media screen and(max-width:500px){
+    .flipa-container{
+        display: flex;
+        flex-direction: column;
+    }
+}

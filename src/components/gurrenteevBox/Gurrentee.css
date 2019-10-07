@@ -1,0 +1,33 @@
+.gurentee-container{
+    border: 1px solid lightgray;
+    height:  100px;
+    width: 950px;
+    margin: 50px 0px 60px 30px;
+color: black;
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding: 5px;
+}
+.image{
+    width: 50px !important;
+    height: 80px !important;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+}
+@media screen and (max-width:500px){
+    .gurentee-container{
+        width: 450px;
+        height: 260px;
+         display: flex;
+         flex-direction:column;
+         padding: 0px;
+         align-items: flex-start;
+padding-left: 30px; 
+margin-left: 20px;
+}
+}

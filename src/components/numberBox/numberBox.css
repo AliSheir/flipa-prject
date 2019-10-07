@@ -1,0 +1,34 @@
+.numberBox-container{
+width: 100%;
+height: 250px;
+color: black;
+display: flex;
+justify-content: space-around;
+margin-top: 80px;
+}
+.first-box{
+width: 200px;
+height: 200px;
+text-align: center;
+}
+.second-box{
+width: 230px;
+height: 200px;
+text-align: center;
+
+}
+.third-box{
+width: 280px;
+height: 230px;
+text-align: center;
+
+}
+@media screen and (max-width:500px){
+    .numberBox-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+height: 600px !important;    }
+}
+
+

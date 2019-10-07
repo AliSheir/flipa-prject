@@ -1,0 +1,13 @@
+.detailss{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+
+}
+.box{
+    width: 20%;
+    height: 340px;
+    color: black;
+}

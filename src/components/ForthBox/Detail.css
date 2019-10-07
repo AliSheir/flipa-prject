@@ -1,0 +1,17 @@
+.detail{
+    margin-top: 20px; 
+    display:  flex;
+    flex-direction:row;
+    justify-content: space-around;
+    color:  black;
+}
+.icons-color{
+    color: green;
+    font-size: 25px;
+}
+@media screen and (max-width:500px){
+    .detail{
+        display: flex;
+        flex-direction: column;
+    }
+}

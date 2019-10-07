@@ -1,0 +1,44 @@
+{
+  "name": "work",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.3.3",
+    "@material-ui/icons": "^4.2.1",
+    "antd": "^3.23.4",
+    "bootstrap": "^4.3.1",
+    "mdbreact": "^4.20.0",
+    "react": "^16.9.0",
+    "react-alice-carousel": "^1.15.3",
+    "react-bootstrap": "^1.0.0-beta.12",
+    "react-dom": "^16.9.0",
+    "react-icons": "^3.7.0",
+    "react-items-carousel": "^2.7.0",
+    "react-multi-carousel": "^2.2.6",
+    "react-responsive-carousel": "^3.1.50",
+    "react-scripts": "3.1.1",
+    "reactstrap": "^8.0.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
